@@ -37,7 +37,7 @@
                     <form class="p-5" method="POST" action="SociosController?accion=actualizar">
                          <div class="mb-2">
                             <label for="id" class="form-label" >id</label>
-                            <input type="text" class="form-control" aria-label="Disabled input example" disabled readonly id="id" name="id" readonly="true" value=<%=resultado.getIdSocio() %> >                          
+                            <input type="text" class="form-control" aria-label="Disabled input example" id="id" name="id" readonly="true" value=<%=resultado.getIdSocio() %> >                          
                         </div> 
                         <div class="mb-2">
                             <label for="nombre" class="form-label" >Nombre</label>
